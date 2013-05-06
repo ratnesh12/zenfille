@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: none repeat scroll 0 0 #FBFBFB !important;
+}
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 30px;
+}
+#login {
+    margin: 7em auto;
+    width: 320px;
+}
+	#login FORM {
+	    background: none repeat scroll 0 0 #FFFFFF;
+	    border: 1px solid #E5E5E5;
+	    border-radius: 3px 3px 3px 3px;
+	    box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+	    font-weight: normal;
+	    margin-left: 8px;
+	    padding: 26px 24px 46px;
+	}
+	
+	#login FORM LABEL {
+	    color: #777777;
+	    font-size: 14px;
+	}
+
+	#login FORM .input {
+	    background: none repeat scroll 0 0 #FBFBFB;
+	    border: 1px solid #E5E5E5;
+	    box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.2) inset;
+	    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+	    font-size: 24px;
+	    font-weight: 200;
+	    margin-bottom: 16px;
+	    margin-right: 6px;
+	    margin-top: 2px;
+	    outline: medium none;
+	    padding: 3px;
+	    width: 97%;
+	}
+form .forgetmenot {
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#login form p {
+    margin-bottom: 0;
+}
+#login form .submit, .alignright {
+    float: right;
+}
+#login.submit {
+    border-color: #DFDFDF;
+}
+form .forgetmenot {
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.login #nav a, .login #backtoblog a {
+    color: #21759B !important;
+}
+.login #backtoblog a {
+    color: #464646;
+}
+colors.login #nav a, .login #backtoblog a {
+    color: #21759B !important;
+}
+
+#nav, #backtoblog {
+    margin: 0 0 0 16px;
+    padding: 16px 16px 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.button-primary {
+    border: 1px solid;
+    border-radius: 11px 11px 11px 11px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: -3px;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+input.button-primary, button.button-primary, a.button-primary {
+	background-color: #21759B;
+    border-color: #298CBA;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,11 @@
+.komodotools
+*.komodoproject
+/nbproject/*
+applications/cache/*
+/applications/client/logs/*
+client/assets/cache/*
+client/uploads/*
+pm/uploads/*
+client/uploads/
+pm/uploads/
+

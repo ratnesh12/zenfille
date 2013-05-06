@@ -1,0 +1,234 @@
+HTML, BODY {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	color: #8b8b8b;
+    background-image: url('/pm/assets/img/confidential.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Top Header*/
+#top-header {
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	border-bottom: solid #eeece9 1px;
+	font-family: Arial;
+	font-size: 12pt;
+	background-color: #505050;
+};
+
+
+#top-header P {
+	color: #999999;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+} 
+
+#top-header A {
+	text-decoration: none;
+	color: #62b5ef;
+}
+
+/* Main Header */
+#header {
+	width: 100%;
+	height: 125px;
+	/*background-color: #ecead1;*/
+	background-image: url(http://zenfile.com/pm/assets/images/skin/pdf-header.png);
+	background-repeat: no-repeat;
+}
+
+#header #big-logo {
+	float: left;
+	width: 412px;
+	height: 132px;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+
+#header #estimate-label {
+	float: right;
+	height: 95px;
+	width: 200px;
+	font-family: "Myriad Pro";
+	font-size: 16pt;
+	font-weight: bolder;
+	margin-right: -10px;
+	margin-top: 30px;
+	text-align: center;
+	/*padding-left: 40px;*/
+	/*color: #FFFFFF;*/
+	/*background-color: #34679a;*/
+}
+/* Footer */
+#footer {
+	width: 100%;	
+	height: 120px;
+	background-color: #e1e1dc;
+	color: #6c6c6c;
+	font-family: Arial;
+}
+
+#footer A, #footer A:link, #footer A:visited, #footer A:hover {
+	text-decoration: none;
+	color: 3f6f9e;
+}
+
+#footer #small-logo {
+	/*float: left;*/
+	/*width: 74px;*/
+	/*min-width: 74px;*/
+	/*height: 46px;*/
+	/*margin-top: 40px;*/
+	/*margin-left: 40px;*/
+    float: left;
+    width: 206px;
+    margin-left: 35px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+#footer #company-info {
+	float: right;
+	width: 65%;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 20px;
+    padding-top: 20px;
+}
+
+#footer #company-info P {
+	text-align: right;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+H1 {
+	margin: 30px 0 0 20px;
+	padding: 0;
+	font-family: Sans-serif;
+	font-size: 20pt;
+	color: #646464; 
+	/*line-height: 53px;*/
+	height: 43px;
+}
+
+.line {
+	color: #e1e1dc;
+	background-color: #e1e1dc;
+	width: 100%;
+	height: 1px;
+	max-height: 1px;
+	display: block;
+}
+.dotted-line {
+	color: #e1e1dc;
+	background-color: #e1e1dc;
+	width: 100%;
+	height: 1px;
+	display: block;
+	float: left;
+}
+TABLE.data-table {
+	width: 90%;
+	border: 0;
+	font-family: Arial;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 20px;
+	cellpadding: 4;
+	cellspacing: 0;
+}
+TABLE.data-table TD{
+	font-family: Arial;
+	font-weight: lighter;
+}
+TABLE.data-table TD.strong{
+	font-family: Arial;
+	font-weight: bolder;
+}
+	.strong {
+		font-weight: normal;
+	}
+TABLE#fees-table {
+	width: 90%;
+	border: 0;
+	font-family: Arial;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 20px;
+	cellpadding: 4;
+	cellspacing: 0;
+	color: #646464;
+}
+
+	TABLE#fees-table TH {
+		color: #34679a;
+		font-weight: bolder;
+		text-align: left;
+	}
+	
+	TABLE#fees-table TD.right {
+		text-align: right;
+	}
+	TABLE#fees-table TD.left {
+		text-align: left;
+		border-bottom: solid #CCCCCC 1px;	
+	}
+	TABLE#fees-table TD {
+		text-align: center;
+		
+	}
+	
+SUP {
+	color: #33679a !important;	
+}
+.left {
+	text-align: center;
+}
+
+TABLE#footnotes-table TD {
+	font-family: Arial;
+	font-size: 12pt;
+	color: #336699;
+}
+
+TABLE#footnotes-table TD.number {
+	text-align: center;
+	vertical-align: top;
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bolder;
+	font-style: italic;
+	color: #336699;
+}
+
+.divider {
+	width: 100%;
+	background-image: url(../../assets/images/skin/pdf_divider.jpg);
+	background-repeat: no-repeat;
+}
+
+STRONG {
+	color: #646464;
+}
+#top-footnote {	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	color: #336699;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic; 
+}
+
+#estimate-date {
+	height: 15px;
+	width: 80px;
+}

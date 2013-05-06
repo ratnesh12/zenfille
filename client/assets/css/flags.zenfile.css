@@ -1,0 +1,353 @@
+.flags {
+	font-size: 10pt;
+}
+
+.flags.selected {
+	padding-left:10px;
+}
+
+.flags li .wrap {
+	position: absolute;
+}
+
+.flags ul {
+	list-style: none;
+}
+
+.flags li,
+.flags .flag-img {
+	line-height: 14px;
+	text-align: center;
+	list-style: none;
+	display: block;
+	margin: 5px auto;
+	width: 48px;
+	height:48px;
+	/*background: url(../img/countries.png) no-repeat top left;*/
+	padding: 0px 0 0 0;
+	font-size: 10pt;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.flag-image-block{
+	height: 48px;
+}
+
+.ui-menu .flags a {
+	width: auto;
+	padding-left: 50px;
+}
+
+.wrap {
+	margin: 0;
+}
+
+
+.flags.selected {
+	padding-left:10px;
+}
+
+
+.countries_activator {
+	cursor: pointer;
+}
+
+.add_country_box,
+.flags .flag-img:hover a.add {
+    background:transparent url(../img/add.png) no-repeat top left;
+    position:absolute;
+    top:0;
+    right:0;
+    width:16px;
+    height:16px;
+	display: block;
+	z-index: 3;
+}
+
+.remove_country_box,
+.flags .flag-img:hover a.remove {
+    background:transparent url(../img/remove.png) no-repeat top left;
+    position:absolute;
+    top:0;
+    right:0;
+    width:16px;
+    height:16px;
+	z-index: 3;
+}
+
+
+.flag {
+	position: relative;
+}
+
+
+.flag-box,
+.flag-box-noflag {
+	float: left;
+	text-align: center;
+	display: block;
+	width: 65px;
+	margin: 5px;
+	height: 85px;
+}
+	.flag-box .country_name {
+		font-size: 10px;
+
+	}
+
+
+
+
+/* SPTIES */
+
+.flags .flag-_ASEAN{ background-position: 0 0; width: 48px; height: 48px; }
+.flags .flag-_AfricanUnionOAS{ background-position: 0 -98px; width: 48px; height: 48px; }
+.flags .flag-_ArabLeague{ background-position: 0 -196px; width: 48px; height: 48px; }
+.flags .flag-_CARICOM{ background-position: 0 -294px; width: 48px; height: 48px; }
+.flags .flag-_CIS{ background-position: 0 -392px; width: 48px; height: 48px; }
+.flags .flag-_Commonwealth{ background-position: 0 -490px; width: 48px; height: 48px; }
+.flags .flag-_England{ background-position: 0 -588px; width: 48px; height: 48px; }
+.flags .flag-ep{ background-position: 0 -686px; width: 48px; height: 48px; }
+.flags .flag-_IslamicConference{ background-position: 0 -784px; width: 48px; height: 48px; }
+.flags .flag-_Kosovo{ background-position: 0 -882px; width: 48px; height: 48px; }
+.flags .flag-_NATO{ background-position: 0 -980px; width: 48px; height: 48px; }
+.flags .flag-_NorthernCyprus{ background-position: 0 -1078px; width: 48px; height: 48px; }
+.flags .flag-_NorthernIreland{ background-position: 0 -1176px; width: 48px; height: 48px; }
+.flags .flag-_OPEC{ background-position: 0 -1274px; width: 48px; height: 48px; }
+.flags .flag-_OlimpicMovement{ background-position: 0 -1372px; width: 48px; height: 48px; }
+.flags .flag-_RedCross{ background-position: 0 -1470px; width: 48px; height: 48px; }
+.flags .flag-_Scotland{ background-position: 0 -1568px; width: 48px; height: 48px; }
+.flags .flag-_Somaliland{ background-position: 0 -1666px; width: 48px; height: 48px; }
+.flags .flag-_UnitedNations{ background-position: 0 -1764px; width: 48px; height: 48px; }
+.flags .flag-_Wales{ background-position: 0 -1862px; width: 48px; height: 48px; }
+.flags .flag-ad{ background-position: -98px 0; width: 48px; height: 48px; }
+.flags .flag-ae{ background-position: -98px -98px; width: 48px; height: 48px; }
+.flags .flag-af{ background-position: -98px -196px; width: 48px; height: 48px; }
+.flags .flag-ag{ background-position: -98px -294px; width: 48px; height: 48px; }
+.flags .flag-ai{ background-position: -98px -392px; width: 48px; height: 48px; }
+.flags .flag-al{ background-position: -98px -490px; width: 48px; height: 48px; }
+.flags .flag-am{ background-position: -98px -588px; width: 48px; height: 48px; }
+.flags .flag-an{ background-position: -98px -686px; width: 48px; height: 48px; }
+.flags .flag-ao{ background-position: -98px -784px; width: 48px; height: 48px; }
+.flags .flag-aq{ background-position: -98px -882px; width: 48px; height: 48px; }
+.flags .flag-ar{ background-position: -98px -980px; width: 48px; height: 48px; }
+.flags .flag-as{ background-position: -98px -1078px; width: 48px; height: 48px; }
+.flags .flag-at{ background-position: -98px -1176px; width: 48px; height: 48px; }
+.flags .flag-au{ background-position: -98px -1274px; width: 48px; height: 48px; }
+.flags .flag-aw{ background-position: -98px -1372px; width: 48px; height: 48px; }
+.flags .flag-az{ background-position: -98px -1470px; width: 48px; height: 48px; }
+.flags .flag-ba{ background-position: -98px -1568px; width: 48px; height: 48px; }
+.flags .flag-bb{ background-position: -98px -1666px; width: 48px; height: 48px; }
+.flags .flag-bd{ background-position: -98px -1764px; width: 48px; height: 48px; }
+.flags .flag-be{ background-position: -98px -1862px; width: 48px; height: 48px; }
+.flags .flag-bf{ background-position: -196px 0; width: 48px; height: 48px; }
+.flags .flag-bg{ background-position: -196px -98px; width: 48px; height: 48px; }
+.flags .flag-bh{ background-position: -196px -196px; width: 48px; height: 48px; }
+.flags .flag-bi{ background-position: -196px -294px; width: 48px; height: 48px; }
+.flags .flag-bj{ background-position: -196px -392px; width: 48px; height: 48px; }
+.flags .flag-bm{ background-position: -196px -490px; width: 48px; height: 48px; }
+.flags .flag-bn{ background-position: -196px -588px; width: 48px; height: 48px; }
+.flags .flag-bo{ background-position: -196px -686px; width: 48px; height: 48px; }
+.flags .flag-br{ background-position: -196px -784px; width: 48px; height: 48px; }
+.flags .flag-bs{ background-position: -196px -882px; width: 48px; height: 48px; }
+.flags .flag-bt{ background-position: -196px -980px; width: 48px; height: 48px; }
+.flags .flag-bw{ background-position: -196px -1078px; width: 48px; height: 48px; }
+.flags .flag-by{ background-position: -196px -1176px; width: 48px; height: 48px; }
+.flags .flag-bz{ background-position: -196px -1274px; width: 48px; height: 48px; }
+.flags .flag-ca{ background-position: -196px -1372px; width: 48px; height: 48px; }
+.flags .flag-cd{ background-position: -196px -1470px; width: 48px; height: 48px; }
+.flags .flag-cf{ background-position: -196px -1568px; width: 48px; height: 48px; }
+.flags .flag-cg{ background-position: -196px -1666px; width: 48px; height: 48px; }
+.flags .flag-ch{ background-position: -196px -1764px; width: 48px; height: 48px; }
+.flags .flag-ci{ background-position: -196px -1862px; width: 48px; height: 48px; }
+.flags .flag-ck{ background-position: -294px 0; width: 48px; height: 48px; }
+.flags .flag-cl{ background-position: -294px -98px; width: 48px; height: 48px; }
+.flags .flag-cm{ background-position: -294px -196px; width: 48px; height: 48px; }
+.flags .flag-cn{ background-position: -294px -294px; width: 48px; height: 48px; }
+.flags .flag-co{ background-position: -294px -392px; width: 48px; height: 48px; }
+.flags .flag-cr{ background-position: -294px -490px; width: 48px; height: 48px; }
+.flags .flag-cu{ background-position: -294px -588px; width: 48px; height: 48px; }
+.flags .flag-cv{ background-position: -294px -686px; width: 48px; height: 48px; }
+.flags .flag-cy{ background-position: -294px -784px; width: 48px; height: 48px; }
+.flags .flag-cz{ background-position: -294px -882px; width: 48px; height: 48px; }
+.flags .flag-de{ background-position: -294px -980px; width: 48px; height: 48px; }
+.flags .flag-dj{ background-position: -294px -1078px; width: 48px; height: 48px; }
+.flags .flag-dk{ background-position: -294px -1176px; width: 48px; height: 48px; }
+.flags .flag-dm{ background-position: -294px -1274px; width: 48px; height: 48px; }
+.flags .flag-do{ background-position: -294px -1372px; width: 48px; height: 48px; }
+.flags .flag-dz{ background-position: -294px -1470px; width: 48px; height: 48px; }
+.flags .flag-ec{ background-position: -294px -1568px; width: 48px; height: 48px; }
+.flags .flag-ee{ background-position: -294px -1666px; width: 48px; height: 48px; }
+.flags .flag-eg{ background-position: -294px -1764px; width: 48px; height: 48px; }
+.flags .flag-eh{ background-position: -294px -1862px; width: 48px; height: 48px; }
+.flags .flag-er{ background-position: -392px 0; width: 48px; height: 48px; }
+.flags .flag-es{ background-position: -392px -98px; width: 48px; height: 48px; }
+.flags .flag-et{ background-position: -392px -196px; width: 48px; height: 48px; }
+.flags .flag-fi{ background-position: -392px -294px; width: 48px; height: 48px; }
+.flags .flag-fj{ background-position: -392px -392px; width: 48px; height: 48px; }
+.flags .flag-fm{ background-position: -392px -490px; width: 48px; height: 48px; }
+.flags .flag-fo{ background-position: -392px -588px; width: 48px; height: 48px; }
+.flags .flag-fr{ background-position: -392px -686px; width: 48px; height: 48px; }
+.flags .flag-ga{ background-position: -392px -784px; width: 48px; height: 48px; }
+.flags .flag-gb{ background-position: -392px -882px; width: 48px; height: 48px; }
+.flags .flag-gd{ background-position: -392px -980px; width: 48px; height: 48px; }
+.flags .flag-ge{ background-position: -392px -1078px; width: 48px; height: 48px; }
+.flags .flag-gg{ background-position: -392px -1176px; width: 48px; height: 48px; }
+.flags .flag-gh{ background-position: -392px -1274px; width: 48px; height: 48px; }
+.flags .flag-gi{ background-position: -392px -1372px; width: 48px; height: 48px; }
+.flags .flag-gl{ background-position: -392px -1470px; width: 48px; height: 48px; }
+.flags .flag-gm{ background-position: -392px -1568px; width: 48px; height: 48px; }
+.flags .flag-gn{ background-position: -392px -1666px; width: 48px; height: 48px; }
+.flags .flag-gp{ background-position: -392px -1764px; width: 48px; height: 48px; }
+.flags .flag-gq{ background-position: -392px -1862px; width: 48px; height: 48px; }
+.flags .flag-gr{ background-position: -490px 0; width: 48px; height: 48px; }
+.flags .flag-gt{ background-position: -490px -98px; width: 48px; height: 48px; }
+.flags .flag-gu{ background-position: -490px -196px; width: 48px; height: 48px; }
+.flags .flag-gw{ background-position: -490px -294px; width: 48px; height: 48px; }
+.flags .flag-gy{ background-position: -490px -392px; width: 48px; height: 48px; }
+.flags .flag-hk{ background-position: -490px -490px; width: 48px; height: 48px; }
+.flags .flag-hn{ background-position: -490px -588px; width: 48px; height: 48px; }
+.flags .flag-hr{ background-position: -490px -686px; width: 48px; height: 48px; }
+.flags .flag-ht{ background-position: -490px -784px; width: 48px; height: 48px; }
+.flags .flag-hu{ background-position: -490px -882px; width: 48px; height: 48px; }
+.flags .flag-id{ background-position: -490px -980px; width: 48px; height: 48px; }
+.flags .flag-ie{ background-position: -490px -1078px; width: 48px; height: 48px; }
+.flags .flag-il{ background-position: -490px -1176px; width: 48px; height: 48px; }
+.flags .flag-im{ background-position: -490px -1274px; width: 48px; height: 48px; }
+.flags .flag-in{ background-position: -490px -1372px; width: 48px; height: 48px; }
+.flags .flag-iq{ background-position: -490px -1470px; width: 48px; height: 48px; }
+.flags .flag-ir{ background-position: -490px -1568px; width: 48px; height: 48px; }
+.flags .flag-is{ background-position: -490px -1666px; width: 48px; height: 48px; }
+.flags .flag-it{ background-position: -490px -1764px; width: 48px; height: 48px; }
+.flags .flag-je{ background-position: -490px -1862px; width: 48px; height: 48px; }
+.flags .flag-jm{ background-position: -588px 0; width: 48px; height: 48px; }
+.flags .flag-jo{ background-position: -588px -98px; width: 48px; height: 48px; }
+.flags .flag-jp{ background-position: -588px -196px; width: 48px; height: 48px; }
+.flags .flag-ke{ background-position: -588px -294px; width: 48px; height: 48px; }
+.flags .flag-kg{ background-position: -588px -392px; width: 48px; height: 48px; }
+.flags .flag-kh{ background-position: -588px -490px; width: 48px; height: 48px; }
+.flags .flag-ki{ background-position: -588px -588px; width: 48px; height: 48px; }
+.flags .flag-km{ background-position: -588px -686px; width: 48px; height: 48px; }
+.flags .flag-kn{ background-position: -588px -784px; width: 48px; height: 48px; }
+.flags .flag-kp{ background-position: -588px -882px; width: 48px; height: 48px; }
+.flags .flag-kr{ background-position: -588px -980px; width: 48px; height: 48px; }
+.flags .flag-kw{ background-position: -588px -1078px; width: 48px; height: 48px; }
+.flags .flag-ky{ background-position: -588px -1176px; width: 48px; height: 48px; }
+.flags .flag-kz{ background-position: -588px -1274px; width: 48px; height: 48px; }
+.flags .flag-la{ background-position: -588px -1372px; width: 48px; height: 48px; }
+.flags .flag-lb{ background-position: -588px -1470px; width: 48px; height: 48px; }
+.flags .flag-lc{ background-position: -588px -1568px; width: 48px; height: 48px; }
+.flags .flag-li{ background-position: -588px -1666px; width: 48px; height: 48px; }
+.flags .flag-lk{ background-position: -588px -1764px; width: 48px; height: 48px; }
+.flags .flag-lr{ background-position: -588px -1862px; width: 48px; height: 48px; }
+.flags .flag-ls{ background-position: -686px 0; width: 48px; height: 48px; }
+.flags .flag-lt{ background-position: -686px -98px; width: 48px; height: 48px; }
+.flags .flag-lu{ background-position: -686px -196px; width: 48px; height: 48px; }
+.flags .flag-lv{ background-position: -686px -294px; width: 48px; height: 48px; }
+.flags .flag-ly{ background-position: -686px -392px; width: 48px; height: 48px; }
+.flags .flag-ma{ background-position: -686px -490px; width: 48px; height: 48px; }
+.flags .flag-mc{ background-position: -686px -588px; width: 48px; height: 48px; }
+.flags .flag-md{ background-position: -686px -686px; width: 48px; height: 48px; }
+.flags .flag-me{ background-position: -686px -784px; width: 48px; height: 48px; }
+.flags .flag-mg{ background-position: -686px -882px; width: 48px; height: 48px; }
+.flags .flag-mh{ background-position: -686px -980px; width: 48px; height: 48px; }
+.flags .flag-mk{ background-position: -686px -1078px; width: 48px; height: 48px; }
+.flags .flag-ml{ background-position: -686px -1176px; width: 48px; height: 48px; }
+.flags .flag-mm{ background-position: -686px -1274px; width: 48px; height: 48px; }
+.flags .flag-mn{ background-position: -686px -1372px; width: 48px; height: 48px; }
+.flags .flag-mo{ background-position: -686px -1470px; width: 48px; height: 48px; }
+.flags .flag-mq{ background-position: -686px -1568px; width: 48px; height: 48px; }
+.flags .flag-mr{ background-position: -686px -1666px; width: 48px; height: 48px; }
+.flags .flag-ms{ background-position: -686px -1764px; width: 48px; height: 48px; }
+.flags .flag-mt{ background-position: -686px -1862px; width: 48px; height: 48px; }
+.flags .flag-mu{ background-position: -784px 0; width: 48px; height: 48px; }
+.flags .flag-mv{ background-position: -784px -98px; width: 48px; height: 48px; }
+.flags .flag-mw{ background-position: -784px -196px; width: 48px; height: 48px; }
+.flags .flag-mx{ background-position: -784px -294px; width: 48px; height: 48px; }
+.flags .flag-my{ background-position: -784px -392px; width: 48px; height: 48px; }
+.flags .flag-mz{ background-position: -784px -490px; width: 48px; height: 48px; }
+.flags .flag-na{ background-position: -784px -588px; width: 48px; height: 48px; }
+.flags .flag-nc{ background-position: -784px -686px; width: 48px; height: 48px; }
+.flags .flag-ne{ background-position: -784px -784px; width: 48px; height: 48px; }
+.flags .flag-ng{ background-position: -784px -882px; width: 48px; height: 48px; }
+.flags .flag-ni{ background-position: -784px -980px; width: 48px; height: 48px; }
+.flags .flag-nl{ background-position: -784px -1078px; width: 48px; height: 48px; }
+.flags .flag-no{ background-position: -784px -1176px; width: 48px; height: 48px; }
+.flags .flag-noflag{ background-position: -784px -1274px; width: 48px; height: 48px; }
+.flags .flag-np{ background-position: -784px -1372px; width: 48px; height: 48px; }
+.flags .flag-nr{ background-position: -784px -1470px; width: 48px; height: 48px; }
+.flags .flag-nz{ background-position: -784px -1568px; width: 48px; height: 48px; }
+.flags .flag-om{ background-position: -784px -1666px; width: 48px; height: 48px; }
+.flags .flag-pa{ background-position: -784px -1764px; width: 48px; height: 48px; }
+.flags .flag-pe{ background-position: -784px -1862px; width: 48px; height: 48px; }
+.flags .flag-pf{ background-position: -882px 0; width: 48px; height: 48px; }
+.flags .flag-pg{ background-position: -882px -98px; width: 48px; height: 48px; }
+.flags .flag-ph{ background-position: -882px -196px; width: 48px; height: 48px; }
+.flags .flag-pk{ background-position: -882px -294px; width: 48px; height: 48px; }
+.flags .flag-pl{ background-position: -882px -392px; width: 48px; height: 48px; }
+.flags .flag-pr{ background-position: -882px -490px; width: 48px; height: 48px; }
+.flags .flag-ps{ background-position: -882px -588px; width: 48px; height: 48px; }
+.flags .flag-pt{ background-position: -882px -686px; width: 48px; height: 48px; }
+.flags .flag-pw{ background-position: -882px -784px; width: 48px; height: 48px; }
+.flags .flag-py{ background-position: -882px -882px; width: 48px; height: 48px; }
+.flags .flag-qa{ background-position: -882px -980px; width: 48px; height: 48px; }
+.flags .flag-re{ background-position: -882px -1078px; width: 48px; height: 48px; }
+.flags .flag-ro{ background-position: -882px -1176px; width: 48px; height: 48px; }
+.flags .flag-rs{ background-position: -882px -1274px; width: 48px; height: 48px; }
+.flags .flag-ru{ background-position: -882px -1372px; width: 48px; height: 48px; }
+.flags .flag-rw{ background-position: -882px -1470px; width: 48px; height: 48px; }
+.flags .flag-sa{ background-position: -882px -1568px; width: 48px; height: 48px; }
+.flags .flag-sb{ background-position: -882px -1666px; width: 48px; height: 48px; }
+.flags .flag-sc{ background-position: -882px -1764px; width: 48px; height: 48px; }
+.flags .flag-sd{ background-position: -882px -1862px; width: 48px; height: 48px; }
+.flags .flag-se{ background-position: -980px 0; width: 48px; height: 48px; }
+.flags .flag-sg{ background-position: -980px -98px; width: 48px; height: 48px; }
+.flags .flag-si{ background-position: -980px -196px; width: 48px; height: 48px; }
+.flags .flag-sk{ background-position: -980px -294px; width: 48px; height: 48px; }
+.flags .flag-sl{ background-position: -980px -392px; width: 48px; height: 48px; }
+.flags .flag-sm{ background-position: -980px -490px; width: 48px; height: 48px; }
+.flags .flag-sn{ background-position: -980px -588px; width: 48px; height: 48px; }
+.flags .flag-so{ background-position: -980px -686px; width: 48px; height: 48px; }
+.flags .flag-sr{ background-position: -980px -784px; width: 48px; height: 48px; }
+.flags .flag-st{ background-position: -980px -882px; width: 48px; height: 48px; }
+.flags .flag-sv{ background-position: -980px -980px; width: 48px; height: 48px; }
+.flags .flag-sy{ background-position: -980px -1078px; width: 48px; height: 48px; }
+.flags .flag-sz{ background-position: -980px -1176px; width: 48px; height: 48px; }
+.flags .flag-tc{ background-position: -980px -1274px; width: 48px; height: 48px; }
+.flags .flag-td{ background-position: -980px -1372px; width: 48px; height: 48px; }
+.flags .flag-tg{ background-position: -980px -1470px; width: 48px; height: 48px; }
+.flags .flag-th{ background-position: -980px -1568px; width: 48px; height: 48px; }
+.flags .flag-tj{ background-position: -980px -1666px; width: 48px; height: 48px; }
+.flags .flag-tl{ background-position: -980px -1764px; width: 48px; height: 48px; }
+.flags .flag-tm{ background-position: -980px -1862px; width: 48px; height: 48px; }
+.flags .flag-tn{ background-position: -1078px 0; width: 48px; height: 48px; }
+.flags .flag-to{ background-position: -1078px -98px; width: 48px; height: 48px; }
+.flags .flag-tr{ background-position: -1078px -196px; width: 48px; height: 48px; }
+.flags .flag-tt{ background-position: -1078px -294px; width: 48px; height: 48px; }
+.flags .flag-tv{ background-position: -1078px -392px; width: 48px; height: 48px; }
+.flags .flag-tw{ background-position: -1078px -490px; width: 48px; height: 48px; }
+.flags .flag-tz{ background-position: -1078px -588px; width: 48px; height: 48px; }
+.flags .flag-ua{ background-position: -1078px -686px; width: 48px; height: 48px; }
+.flags .flag-ug{ background-position: -1078px -784px; width: 48px; height: 48px; }
+.flags .flag-us{ background-position: -1078px -882px; width: 48px; height: 48px; }
+.flags .flag-uy{ background-position: -1078px -980px; width: 48px; height: 48px; }
+.flags .flag-uz{ background-position: -1078px -1078px; width: 48px; height: 48px; }
+.flags .flag-va{ background-position: -1078px -1176px; width: 48px; height: 48px; }
+.flags .flag-vc{ background-position: -1078px -1274px; width: 48px; height: 48px; }
+.flags .flag-ve{ background-position: -1078px -1372px; width: 48px; height: 48px; }
+.flags .flag-vg{ background-position: -1078px -1470px; width: 48px; height: 48px; }
+.flags .flag-vi{ background-position: -1078px -1568px; width: 48px; height: 48px; }
+.flags .flag-vn{ background-position: -1078px -1666px; width: 48px; height: 48px; }
+.flags .flag-vu{ background-position: -1078px -1764px; width: 48px; height: 48px; }
+.flags .flag-ws{ background-position: -1078px -1862px; width: 48px; height: 48px; }
+.flags .flag-ye{ background-position: -1176px 0; width: 48px; height: 48px; }
+.flags .flag-za{ background-position: -1176px -98px; width: 48px; height: 48px; }
+.flags .flag-zm{ background-position: -1176px -196px; width: 48px; height: 48px; }
+.flags .flag-zw{ background-position: -1176px -294px; width: 48px; height: 48px; }
+
+.flags .flag-ap{ background: url(../img/aripo.png) 0 0 no-repeat ; width: 48px; height: 48px; }
+.flags .flag-ea{ background: url(../img/eurasia.png) 0 0 no-repeat ; width: 48px; height: 48px; }
+.flags .flag-gc{ background: url(../img/gcc.png) 0 0 no-repeat ; width: 48px; height: 48px; }
+

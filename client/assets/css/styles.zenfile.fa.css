@@ -1,0 +1,267 @@
+/*main*/
+div.notice{
+	position: absolute;
+	display: none;
+	top: -3px;
+	right: -150px;
+	width: 137px;
+	height: 30px;
+	background-image: url(../img/notice_bg.png);
+	overflow: hidden;
+	text-align: left;
+	padding: 5px;
+	z-index: 10;
+}
+
+
+select,textarea,input{float: none;}
+
+div.tabs_container{color: #444; font-size: 13px;}
+
+p{
+	margin: 10px 0;
+	font-weight: bold;
+	color: #003c5b;
+	font-size: 13px;
+}
+
+.float-left{float:left}
+.float-right{float:right}
+
+.fa_note{
+	font-weight: bold;
+	color: #003c5b;
+	font-size: 13px;
+	padding: 10px;
+}
+/*-main-*/
+
+/*fa-table*/
+.fa-table{
+	width: 885px!important;
+}
+
+.fa-table td{
+	vertical-align: middle;
+	height: 35px;
+	padding: 0 5px;
+	font-size: 13px;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	text-align: center;
+}
+
+.fa-table th{
+	background: url("../img/tab.jpg") repeat-x scroll 0 0 transparent;
+	height: 35px;
+	padding: 0 5px;
+	font-size: 13px;
+	color: #fff;
+	border-left: 1px solid #aaa;
+	text-shadow: 1px 1px #FFFFFF;
+	color: #444;
+	vertical-align: middle;
+}
+
+.fa-table tr.even td{
+	background-color: #fff;
+}
+
+.fa-table th.last,
+.fa-table td.last{
+	border-right: 1px solid #aaa;
+}
+
+.fa-table td.doc_file_name{
+	text-align: left;
+}
+
+.fa-table a{
+	color: #074C99;
+	font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#doc-not-required{
+	width: 470px;
+}
+
+.fa-table td.late_fee{
+	text-align: center;
+	padding: 0 2px;
+	width: 60px;
+}
+
+.fa-table td.late_fee input{
+	width: 60px;
+	border-right: 1px solid #c1c1c1;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+}
+
+.fa-table th.delete{
+	width: 47px;	
+}
+
+.fa-table td.deadline_for_filling,
+.fa-table td.extension{
+	text-align: center;
+	padding: 0 2px;
+	width: 70px;
+}
+
+.fa-table td.deadline_for_filling input,
+.fa-table td.extension input{
+	width: 70px;
+	border-right: 1px solid #c1c1c1;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+}
+
+/*fa-table*/
+
+/*checkers*/
+div.checkers{
+	width: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+
+a.checker{
+	width: 20px;
+	float: left;
+	height: 20px;
+	overflow: hidden;
+	background-image: url('../img/checkers_sprite.png');
+	background-position: 0 0;
+}
+
+a.checker_yes{
+	background-position: 0 0;
+}
+
+a.checker_yes_active{
+	background-position: 0 -21px;
+}
+
+a.checker_no{
+	background-position: -20px 0;
+}
+
+a.checker_no_active{
+	background-position: -20px -21px;
+}
+/*-checkers-*/
+
+/*doc-requirements*/
+#doc-requirements input[type=radio]{
+	width: 10px;
+	height: 10px;
+	float: none;
+}
+
+#doc-requirements label{
+	color: #9d9d9d;
+}
+
+
+.doc-requirements-info{
+	padding: 10px;
+	font-size: 13px;
+}
+
+.doc-requirements-info .info-left{
+	float: left;
+	width: 200px;
+}
+
+.doc-requirements-info .info-right{
+	float: left;
+}
+/*-doc-requirements-*/
+
+/*filing-conf*/
+	div.filing-lable{
+		width: 240px;
+		height: 10px;
+		padding: 10px;
+	}
+	div.filing-input{
+		width: 350px;
+	}
+	
+	div.filing-input .selectBox{border-left: none;width:290px!important;}
+	
+	div.warning-notice{
+		color: #ff0000;
+		font-size: 27px;
+		padding: 10px;
+		font-weight: bold;
+	}
+/*-filing-conf-*/
+
+/*invoce*/
+	p.invoice-warning{
+		color: #ff0000;
+		font-size: 18px;
+		padding: 10px;
+		font-weight: bold;
+	}
+	
+	div.invoice-lable{
+		width: 105px;
+		height: 10px;
+		padding: 10px;
+	}
+	div.invoice-input{
+		width: 215px;
+	}
+	
+	span.invoice-required{
+		color: #ff0000;
+	}
+	
+	
+	div.invoice-additional{
+		width: 302px;
+	}
+	
+	div.invoice-input input[type=text]{
+		width: 200px;
+		border-radius: 4px 4px 4px 4px;
+		-moz-border-radius: 4px 4px 4px 4px;
+		-webkit-border-radius: 4px 4px 4px 4px;
+    	border-right: 1px solid #C1C1C1;
+	}
+	
+/*-invoce-*/
+
+/*additional-styles*/
+.cell_content{position: relative;}
+
+.additional_instructions textarea{
+	float:none;
+}
+
+a.remove_doc_file{
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	background-image: url('../img/remove.png');
+	background-position: 0 0;
+	display: block;
+	margin: 0 auto;
+}
+
+a.confirm_docs{
+	float:right;
+	margin: 5px;
+}
+
+a.confirm_instructions{
+	margin-left: 280px;
+}
+/*-additional-styles-*/

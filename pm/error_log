@@ -1,0 +1,98 @@
+[11-Mar-2013 12:06:38] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:06:45] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:07:16] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:12:02] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:12:06] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:12:08] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:12:30] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:13:20] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 12:14:22] PHP Fatal error:  Can't use method return value in write context in /home/devzen/public_html/applications/pm/models/customers_model.php on line 220
+[11-Mar-2013 16:08:38] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[11-Mar-2013 16:08:42] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[11-Mar-2013 16:08:50] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[11-Mar-2013 16:08:53] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:07:51] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:02] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:05] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:08] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:11] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:13] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 12:13:15] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[12-Mar-2013 15:01:57] PHP Fatal error:  Call to undefined method Users_model::get_user() in /home/devzen/public_html/applications/pm/controllers/users.php on line 59
+[12-Mar-2013 15:02:03] PHP Fatal error:  Call to undefined method Users_model::get_user() in /home/devzen/public_html/applications/pm/controllers/users.php on line 59
+[12-Mar-2013 15:02:10] PHP Fatal error:  Call to undefined method Users_model::get_user() in /home/devzen/public_html/applications/pm/controllers/users.php on line 59
+[12-Mar-2013 15:02:20] PHP Fatal error:  Call to undefined method Users_model::get_user() in /home/devzen/public_html/applications/pm/controllers/users.php on line 59
+[13-Mar-2013 07:37:29] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/devzen/public_html/applications/pm/controllers/download.php on line 27
+[14-Mar-2013 12:13:51] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/SimpleHeaderSet in /home/devzen/public_html/applications/pm/libraries/Swift/classes/Swift/Mime/Headers/MailboxHeader.php on line 352

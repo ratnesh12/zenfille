@@ -1,0 +1,486 @@
+.disabled {
+    display: none;
+}
+.applicationForm {
+    box-shadow:0px 0px 3px #aaa;
+
+    border:2px solid #fff;
+    background-color:#f9f9f9;
+    width:620px;
+    color: #003c5b;
+    padding: 10px 0;
+    font-style: italic;
+    text-align: left;
+    font-size: 14pt;
+    margin: 50px auto;
+
+    border-radius:10px;
+
+}
+
+form.applicationForm,
+#form_loadholder {
+    display: none;
+}
+
+
+.applicationForm .asterisk {
+    color: red;
+    font-size: 16pt;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.applicationForm label {
+    display: inline;
+}
+
+.applicationForm a,
+.applicationForm a:hover,
+.applicationForm a:focus,
+.applicationForm a:active {
+    outline: none;
+    color: #09A3C4;
+    text-decoration: none;
+}
+
+
+#steps{
+    width:620px;
+}
+
+.step {
+    width:560px;
+}
+
+.applicationForm .clear {
+    clear: both;
+}
+
+.applicationForm .nofloat {
+    float: none;
+}
+
+.applicationForm .center {
+    text-align: center;
+}
+
+.applicationForm div.fieldset {
+    border:none;
+    padding:30px;
+}
+
+.applicationForm .legend {
+    text-align:center;
+    background-color:#f0f0f0;
+    color:#666;
+    font-size:12px;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+    width:610px;
+    padding:5px 0px 5px 10px;
+    margin:-20px 0 20px -30px;
+    border-bottom:1px solid #fff;
+    border-top:1px solid #d9d9d9;
+    text-transform: uppercase;
+    display: block;
+    float: none;
+    clear: both;
+    position:absolute;
+}
+
+.applicationForm div.p,
+.applicationForm .files_table {
+    /*margin:5px 0px;*/
+    background-color:#f4f4f4;
+    border:1px solid #fff;
+    width:380px;
+    padding:10px;
+    /*margin-left:10px;*/
+    margin: 15px 0 5px 10px;
+
+    box-shadow:0px 0px 3px #aaa;
+    text-align: left;
+    clear: both;
+
+    position: relative;
+    zoom: 1;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.file-info {
+    font-size: 14px;
+    font-style: normal;
+    color: #0757A4;
+
+}
+
+
+.applicationForm .qq-upload-list {
+    display: none;
+}
+
+.applicationForm .files_table {
+    width:528px;
+    margin: 0px 15px 30px 15px;
+}
+
+.applicationForm .files_table_h {
+    clear: both;
+    width: 550px;
+    margin: 10px 15px 0px 15px;
+		/*background: url(../img/table.png) no-repeat;*/
+                background-color: #3c9ecf;
+                background-image: url(../img/table_repeat.png);
+    background-size: 100% 100%;
+    height: 42px;
+}
+
+.applicationForm .files_table .file {
+    line-height: 30px;
+    clear: left;
+    padding: 5px 0px 10px 5px;
+    width:520px;
+    font-size: 20px;
+}
+
+.applicationForm .files_table .file .file-info {
+    float: left;
+    padding-right: 10px;
+    width:250px;
+    overflow: hidden;
+}
+
+.applicationForm .files_table .file .file-size {
+    float: left;
+    padding-right: 10px;
+    width:50px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.applicationForm .files_table .file .ui-progressbar {
+    float: left;
+    padding-right: 10px;
+    width:180px;
+}
+
+.applicationForm .files_table .file .file-remove {
+    float: left;
+    padding: 10px 0 0 0;
+    width:20px;
+    margin: 10px 0 0 20px;
+}
+
+.applicationForm .files_table .file .file-category {
+    float: left;
+    padding-right: 10px;
+    width:200px;
+}
+
+.applicationForm .files_table_h div
+{
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+    text-shadow: 1px 1px 2px #666;
+    color: #fff;
+    font-size: 22px;
+    height: 20px;
+    float: left;
+}
+
+.applicationForm .files_table_h .file-info {
+    width: 250px;
+}
+
+.applicationForm .files_table_h .file-category {
+    width: 260px;
+}
+
+
+.applicationForm .notice {
+    clear: both;
+    font-style: italic;
+    font-size: 11px;
+    text-align: right;
+    width:380px;
+    padding:0 0 0 25px;
+    margin:5px 0px;
+    margin-left:10px;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.applicationForm .hidden {
+    display: none;
+}
+
+.applicationForm .p label{
+    width:160px;
+    font-size: 18px;
+    text-align:right;
+    margin-right:15px;
+    line-height:26px;
+    color:#003c5b;
+    text-shadow:1px 1px 1px #fff;
+    font-weight:bold;
+}
+
+.applicationForm input {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 3px 5px;
+    width: 200px;
+    float: right;
+    margin: -3px 0 0 0;
+    border-radius: 3px;
+}
+.applicationForm input:focus{
+    box-shadow:0px 0px 3px #aaa;
+    background-color:#FFFEEF;
+}
+
+.applicationForm h3 {
+    font-size: 18pt;
+    padding: 0 10px;
+    font-weight: bold;
+    float: none;
+    clear: both;
+    margin-top: 15px;
+}
+
+.applicationForm h4 {
+    font-size: 14pt;
+    padding: 0 10px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.applicationForm .pleaseStandByNotify {
+    height: auto;
+}
+
+.applicationForm .pleaseStandByNotify h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.applicationForm .bottom_nav {
+    clear: both;
+    padding: 10px;
+}
+
+.applicationForm .bottom_nav button,
+.applicationForm .bottom_nav a {
+    border:none;
+    outline:none;
+
+    color: #717070;
+    display: block;
+    cursor:pointer;
+    padding: 7px 15px;
+    text-shadow: 0 1px 1px #fff;
+    font-weight:bold;
+    font-size:18px;
+    box-shadow:0px 1px 1px #aaa;
+    background:#f4f4f4;
+    text-decoration: none;
+    font-style: italic;
+	font-family: Arial;
+    position: relative;
+    zoom: 1;
+    border-radius: 10px;
+
+}
+
+.applicationForm .bottom_nav button:active,
+.applicationForm .bottom_nav a:active {
+    /*border:1px solid #f4f4f4;*/
+    box-shadow:0px 1px 1px #aaa inset;
+    /*padding: 8px 14px 6px 16px;*/
+}
+
+.step .qq-upload-button {
+    height: 36px;
+    margin: 0;
+    padding: 14px 0 0 5px;
+}
+.button.upload, .qq-upload-button {
+    font-family: arial;
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    }
+.applicationForm .bottom_nav .back {
+    float: left;
+}
+
+.applicationForm .bottom_nav .next,.applicationForm .bottom_nav .review {
+    float: right;
+}
+
+.applicationForm .processing {
+    padding-top: 50px;
+}
+
+
+.applicationForm .uploader_block {
+    margin-left: 15px;
+}
+
+.applicationForm #file-uploader {
+    cursor: pointer;
+}
+
+
+.applicationForm .countries_activator {
+    cursor: pointer;
+}
+
+.applicationForm .in {
+    padding-left: 20px;
+}
+
+.applicationForm .checked
+{
+
+    background:transparent url(../img/checked.png) no-repeat center left;
+}
+
+
+.add_additional_contact_activator,
+.remove_additional_contact_activator {
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 15px 5px 0 0;
+}
+
+.additional_contact {
+    margin: 0 0 0 45px;
+    float: none;
+    clear: both;
+}
+
+.applicationForm .additional_contact div.p {
+    float:left;
+    clear: none;
+}
+
+
+.applicationForm .special {
+    float: none;
+    clear: both;
+    margin:5px 0px;
+
+    width:380px;
+    padding:10px;
+    margin-left:10px;
+
+    text-align: left;
+    clear: both;
+
+    position: relative;
+    zoom: 1;
+    border-radius: 5px;
+}
+
+.applicationForm .img.success {
+    background: url(../img/checked_big.png) no-repeat center center;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.applicationForm .img.error {
+    background: url(../img/cancel_big.png) no-repeat center center;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.applicationFormRadio {
+    border:1px ridge #fff;
+    outline:none;
+    width: 100px;
+    color: #717070;
+    display: block;
+    cursor:pointer;
+    padding: 7px 15px;
+    text-shadow: 0 1px 1px #fff;
+    font-weight:bold;
+    font-size:30px;
+    box-shadow:0px 1px 1px #aaa;
+    background:#f4f4f4;
+    text-decoration: none;
+    font-style: italic;
+    float: left;
+    position: relative;
+    zoom: 1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.applicationFormRadio_panel {
+    margin: 15px auto;
+    width: 300px;
+}
+
+.applicationFormRadio:active,
+.applicationFormRadio.pressed {
+    box-shadow:0px 1px 2px #aaa inset;
+    padding: 8px 14px 6px 16px;
+    border:1px solid #f4f4f4;
+    background-position: 11px 50%;
+}
+
+.applicationFormRadio.yes {
+    background-image: url('../img/checked_middle.png');
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    margin-right: 10px;
+}
+
+.applicationFormRadio.no {
+    background-image: url('../img/remove_middle.png');
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+}
+
+
+.applicationForm .success {
+    background: url('../img/checked_middle.png');
+}
+
+.stan_p{
+    background-color: #F4F4F4;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px #AAAAAA;
+    clear: both;
+    margin: 15px 0 5px 10px;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+}
+.review_text{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pointer{
+  cursor: pointer;
+}
+.back_to_review{
+    float: right;
+    margin-left:5px;
+}
+.HIDDEN_IMPORTANT{
+    display:none !important;
+}

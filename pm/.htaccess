@@ -1,0 +1,14 @@
+SetEnv TZ America/New_York
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteRule ^$ index.php [L]
+
+RewriteCond $1 !^(index\.php|robots\.txt|assets|images|temp|js|css|user_guide|dojo|tmp|propertyimages|mambo|fxanimations|yaml|javascripts|stylesheets)
+
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
+

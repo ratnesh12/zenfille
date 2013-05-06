@@ -1,0 +1,2 @@
+AuthName "zen"
+AuthUserFile "/home/zenfile/.htpasswds/public_html/wp-content/plugins/zenfile-ajaxform/js/passwd"

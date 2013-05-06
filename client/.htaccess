@@ -1,0 +1,14 @@
+SetEnv TZ America/New_York
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^parkipfiling\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.parkipfiling\.com$
+#RewriteCond %{HTTP_HOST} ^zen$
+RewriteRule ^assets/img/(.*)$ assets_park/img/$1 [L]
+RewriteRule ^assets/images/(.*)$ assets_park/images/$1 [L]
+
+RewriteRule ^$ index.php [L]
+RewriteCond $1 !^(index\.php|robots\.txt|assets|images|temp|js|css|user_guide|dojo|tmp|propertyimages|mambo|fxanimations|yaml|javascripts|stylesheets)
+RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>

@@ -1,0 +1,156 @@
+.file {
+	position: relative;
+}
+
+span.file-icon { 
+    background-image: url(../img/sprite-file-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 3px;
+    width: 16px;
+}
+
+.file.pdf span.file-icon {
+        background-position: 0 -21px;
+}
+
+.file.png span.file-icon,
+.file.jpg span.file-icon,
+.file.png span.file-icon,
+.file.bmp span.file-icon {
+        background-position: 0 -86px;
+}
+
+.file.doc span.file-icon {
+        background-position: 0 -105px;
+}
+
+.file.xls span.file-icon{
+        background-position: 0 -126px;
+}
+
+.file.ppt span.file-icon{
+        background-position: 0 -147px;
+}
+
+.file.docx span.file-icon{
+        background-position: 0 -168px;
+}
+
+.file.xlsx span.file-icon{
+        background-position: 0 -189px;
+}
+
+.file.txt span.file-icon{
+        background-position: 0 -210px;
+}
+
+.file.pptx span.file-icon{
+        background-position: 0 -231px;
+}
+
+.file.zip span.file-icon,
+.file.rar span.file-icon,
+.file.gzip span.file-icon,
+.file.arj span.file-icon{
+        background-position: 0 -253px;
+}
+
+.file.wav span.file-icon,
+.file.mp3 span.file-icon,
+.file.aif span.file-icon,
+.file.aiff span.file-icon,
+.file.m4a span.file-icon,
+.file.ogg span.file-icon,
+.file.wma span.file-icon {
+        background-position: 0 -273px;
+}
+
+.file.psd span.file-icon,
+.file.ai span.file-icon,
+.file.swf span.file-icon,
+.file.fla span.file-icon,
+.file.css span.file-icon,
+.file.js span.file-icon {
+        background-position: 0 0px;
+}
+
+.file.avi span.file-icon,
+.file.mov span.file-icon,
+.file.wmv span.file-icon {
+        background-position: 0 -294px;
+}
+
+
+.file a.add {
+    background:transparent url(../img/add.png) no-repeat top left;
+    position:absolute;
+    top:0;
+    right:0;
+    width:16px;
+    height:16px;
+	display: block;
+}
+
+.file a.remove {
+    background:transparent url(../img/remove.png) no-repeat top left;
+    width:16px;
+    height:16px;
+}
+
+
+.files_table {
+	width:540px;
+}
+	
+	.files_table .file {
+		min-height: 30px;
+		line-height: 20px;
+		float: left;
+		clear: left;
+		padding: 5px 20px 5px 5px;
+		border-bottom: 1px dashed #aaa;
+	}
+	
+	.files_table .file:last-of-type {
+		border: none;
+	}
+	
+.files_table tr.file {
+	padding: 0;
+	float: none;
+	
+}
+
+
+
+
+/*
+ * jQuery UI Progressbar 1.8.22
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */
+.ui-progressbar {
+	height:15px;
+	text-align: left;
+	overflow: hidden;
+	background: url('../img/progress_empty.png') 0 0 repeat-x;
+	border-radius: 5px;
+}
+
+	.ui-progressbar .ui-progressbar-value {
+		height:100%;
+		background: url('../img/progress_success.png') 0 0 repeat-x;
+	}
+	
+	.ui-progressbar.error .ui-progressbar-value {
+		height:100%;
+		background: url('../img/progress_error.png') 0 0 repeat-x;
+	}

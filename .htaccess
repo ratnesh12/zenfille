@@ -1,0 +1,29 @@
+#AddType application/x-httpd-php .php .htm .html
+
+#AddHandler x-httpd-php .php .htm .html
+
+AddHandler application/x-httpd-php5 .html .htm
+
+adddefaultcharset utf-8
+Options -Indexes
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^zip/(.*)$ /pm/zip/$1 [L]
+
+RewriteRule ^lostpassword/(.*)$ /client/lostpassword/$1 [L]
+
+RewriteRule ^index\.php$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+RewriteRule . /index.php [L]
+
+</IfModule>

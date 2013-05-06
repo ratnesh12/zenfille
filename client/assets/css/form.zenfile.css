@@ -1,0 +1,288 @@
+::-webkit-input-placeholder { /* для webkit браузеров */
+	color: #aaa;
+	font-style: normal;
+	text-align: left;
+}
+:-moz-placeholder { /* для браузеров mozilla */
+	color: #aaa;
+	font-style: normal;
+	text-align: left;
+}
+input[type=number] {
+	text-align: left; /* в Opera для полей number по умолчанию выравнивание вправо */
+	color: #aaa;
+	font-style: normal;
+}
+
+
+textarea {
+	height:148px;
+	width:428px;
+	float:left;
+	padding: 5px;
+	background: url('../img/textarea.png') no-repeat 0 0;
+	resize: none;
+	border: 1px solid transparent;
+}
+	
+
+
+input,
+select,
+.selectBox-dropdown {
+	border:1px solid transparent;
+	color: #444444;
+	outline: none;
+	padding: 5px;
+	height: 25px;
+	line-height: 20px;
+	width: 290px;
+	float: left;
+	margin: 0;
+}
+
+
+	input {
+		background: #ededed url('../img/input.png') no-repeat 0 0;
+	}
+	
+	select {
+		background: #ededed url('../img/select.png') no-repeat 0 0;
+	}
+	
+	.input_time_input {
+		width:70px;
+		margin: 0 5px 0 0;
+		
+		background: #ededed url('../img/input-little.png') no-repeat 0 0;
+	}
+
+	.input_time_select {
+		width:67px;
+		min-width:67px;
+		margin: 0 14px 0 0;
+		border-left: 1px solid #bbb;
+		background: #ededed url('../img/select-little.png') no-repeat -20px 0;
+	}
+
+input:focus,
+textarea:focus,
+.selectBox-dropdown:focus {
+	box-shadow:0px 0px 5px #6ea9d2;
+	border:1px solid #6ea9d2;
+	border-radius: 4px;
+}
+
+
+input.search {
+	width: 170px;
+	background:  url('../img/input_search.png') no-repeat center center;
+	padding:10px;
+	margin-top: -5px;
+}
+	
+	input.search:focus {
+		background: url('../img/input_search_active.png') no-repeat center center;
+		box-shadow:none;
+		border: none;
+		border-radius: 0;
+	}
+
+.bottom_nav {
+	clear: both;
+	margin-top: 20px;
+	
+}
+
+
+
+
+/* BUTTONS */
+  
+  
+.button {
+	border:none;
+	outline:none;
+	color: #fff;
+	display: block;
+	cursor:pointer;
+	text-shadow: 0 1px 1px #666;
+	font-size:13px;
+	background: url('../img/button_submit.png') no-repeat 0 0;
+	text-decoration: none;
+	position: relative;
+	zoom: 1;
+	margin-bottom: 4px;
+	width:100px;
+	text-align:center;
+	height:36px;
+	line-height:34px;
+	padding: 0px;
+	float: left;
+	margin: 0 5px;
+}
+	
+	.button:active,
+	.button.pressed
+	{
+		background: url('../img/button_submit_active.png') no-repeat 0 0;
+		text-decoration: none;
+		padding: 0px;
+	}
+	
+	.button.white {
+		color: #000;
+		text-shadow: 1px 1px #FFFFFF;
+		background: url('../img/button_white.png') no-repeat 0 0;
+	}
+	
+		.button.white:active,
+		.button.white.pressed
+		{
+			background: url('../img/button_white_active.png') no-repeat 0 0;
+		}
+
+/*
+.qq-upload-button,
+.button {
+	border:none;
+	outline:none;
+	
+	color: #fff;
+	display: block;
+	cursor:pointer;
+	text-shadow: 0 1px 1px #666;
+	font-size:13px;
+
+	background: url('../img/button_submit.png') no-repeat 0 0;
+	text-decoration: none;
+	
+	position: relative;
+	zoom: 1;
+	
+	margin-bottom: 4px;
+	width:100px;
+	text-align:center;
+	height:36px;
+	line-height:34px;
+}
+	
+
+	.qq-upload-button:active,
+	.button:active,
+	.button.pressed
+	{
+		background: url('../img/button_submit_active.png') no-repeat 0 0;
+		text-decoration: none;
+	}
+
+.qq-upload-button {
+	background: url('../img/upload.png') no-repeat 0 0;
+	width: 150px;
+	height: 36px;
+	text-align: left;
+	color: #444;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+	.qq-upload-button input {
+		height: 42px;
+	}
+
+	.qq-upload-button:hover {
+		background: url('../img/upload.png') no-repeat 0 0;
+	}
+
+
+*/
+
+.button.upload,
+.qq-upload-button {
+	background:url(../img/upload_sprite.png) no-repeat -4px 0;
+	width:157px;
+	height:36px;
+	border: none;
+	text-align: left;
+	color: #fff;
+	cursor: pointer;
+	text-shadow: 0 1px 1px #666;
+}
+
+	.qq-upload-button input {
+		height:50px;
+	}
+
+.qq-upload-button:hover,
+.button.upload:hover {
+	background:url(../img/upload_sprite.png) no-repeat -4px -52px;
+}
+
+.qq-upload-button:active,
+.button.upload:active {
+	background:url(../img/upload_sprite.png) no-repeat -4px -104px;
+}
+
+
+.qq-upload-button .middle {
+	font-size: 18px;
+}
+
+.qq-upload-button .small {
+	font-size: 13px;
+}
+
+.msgButton {
+	color: #717070;
+    background:#f4f4f4;
+	float: right;
+}
+
+.qq-upload-button input {
+	cursor:pointer;
+}
+
+.qq-uploader {
+	cursor: pointer;
+}
+
+.qq-upload-list {
+	display: none;
+}
+
+
+.button.download {
+	background: url('../img/button_download.png') no-repeat 0 0;
+	width: 160px;
+	height:46px;
+	padding: 5px 50px 5px 10px;
+	color: #444444;
+	font-size: 15px;
+	line-height: normal;
+	text-shadow: none;
+	text-align: left;
+	font-weight: lighter;
+	border: none;
+}
+
+	.button.download:active {
+		background: url('../img/button_download_active.png') no-repeat 0 0;
+	}
+
+.none {
+    display:none;
+}
+
+.qq-upload-button p:first-of-type  {
+    margin: 6px 0px 0px 8px;
+    font: regular 15pt Arial;
+}
+
+.qq-upload-button p:last-of-type {
+    margin: 0px 0px 0px 8px !important;
+    font: bold 11pt Arial !important;
+}
+
+.selectBox {
+	border-left: 1px solid #aaa;
+}
